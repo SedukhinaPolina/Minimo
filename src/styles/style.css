@@ -1,0 +1,210 @@
+.body {
+font-family: 'Playfair Display', serif;
+font-size: 14px;
+color: #626262;
+
+}
+.page { 
+margin: 0 auto;
+    margin-top: 70px;
+width: 1200px;
+    
+    height: 3278px;}
+.g-dtable {
+display: table;
+}
+.g-dtable .g-dcell-middle {
+display: table-cell;
+vertical-align: middle;
+}
+.link {
+color: #626262;
+text-decoration: none;
+}
+
+.title {
+font-size: 30px;  
+margin: auto;
+font-weight: normal;
+}
+.header {
+height: 23px;
+width: 1063px;
+margin-left: 69px;
+}
+.header .logo {
+background: url(images/minim%C3%B8.png) no-repeat;
+width: 119px;
+height: 23px;
+}
+.header .menu {
+list-style: none;
+text-transform: uppercase;
+padding: 0;
+text-align: right;
+}
+.header .menu .item {
+display: inline-block;
+margin: 0 106px 0 0;
+}
+
+.header .menu .item:last-child {
+margin: 0;
+}
+
+.coverpicture {
+    background: url(images/bigimage.png) no-repeat;
+    height: 509px;
+    width: 1061px;
+    margin: 70px;    
+}
+
+.sidebar {
+    height: 965px;
+    width: 279px;
+    float: right;
+    margin-right: 70px;
+    
+}
+.sidebar .picture {
+    background: url(images/image.png) no-repeat;
+    width: 272px;
+    height: 177px; 
+}
+
+.sidebar .icons {
+    background: url(images/icons.png) no-repeat;
+    height: 17px;
+     width: 76px;
+     position: relative;
+    display: block;
+    overflow: hidden;
+    text-indent: 99999px;
+}
+
+.sidebar .icons .facebook {
+    background-position: 5px 0;
+}
+
+.sidebar .topposts{
+    width: 201px;
+    height: 227px;
+    color: #b4ad9e;
+    font: 300 14px Ubuntu;
+    margin-top: 40px;
+}
+
+.sidebar .topposts .menu {
+    margin-top: 10px;
+}
+
+.sidebar .topposts .menu .item {
+    color: #626262;
+    font: 400 16px PlayfairDisplay;
+    margin-top: 10px;
+}
+
+.sidebar .banner {
+    background: url(images/banner.png);
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+}
+
+.content{
+    width: 659px;
+    margin-left: 70px;
+    line-height: 24px;
+}
+.content .photodiary {
+    color: #b4ad9e;
+    font: 300 14px Ubuntu;
+}
+
+.content .photo1 {
+    background: url(images/photo-1.png);
+    width: 661px;
+    height: 496px;
+    margin-top: 70px;
+}
+
+.content .photo2 {
+    background: url(images/photo2.png);
+    width: 660px;
+    height: 495px;
+    margin-top: 70px;
+}
+
+.content .photo3 {
+    background: url(images/photo3.png);
+    width: 661px;
+    height: 496px;
+    margin-top: 70px;
+    
+}
+
+.content .quote{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 652px;
+    height: 120px;
+}
+
+.share {
+    background: url(images/share.png);
+    width: 197px;
+    height: 17px;
+    margin-left: 610px;
+    margin-top: 100px;
+}
+.footer {
+    background-color: #d9d9d9;
+}  
+    .sub-footer {
+        width: 1200px;
+        height: 97px;
+        text-align:center;
+    }
+        .footer .sub-footer .menu {
+            list-style: none;
+            padding: 0;
+        }
+        .footer .sub-footer .menu .item {
+                display: inline-block;
+                margin: 0 17px 0 0;
+            }
+            .footer .sub-footer .menu .item:last-child {
+                margin: 0;
+            }
+        .footer .sub-footer .soc {
+            list-style: none;
+            padding: 0;
+            text-align: right;
+        }
+            .footer .sub-footer .soc .item {
+                display: inline-block;
+                margin: 0 0 0 10px;
+            }
+            .footer .sub-footer .soc .item:first-child {
+                margin: 0 10px 0 0;
+            }
+                .footer .sub-footer .soc .item .icon {
+                    position: relative;
+                    top: 4px;
+                    width: 16px;
+                    background: url(images/social.png) no-repeat;
+                    height: 16px;
+                    display: block;
+                    overflow: hidden;
+                    text-indent: 99999px;
+                }
+                .footer .sub-footer .soc .item .facebook {
+                    background-position: 5px 0;
+                }
+
+                .footer .sub-footer .soc .item .twitter {
+                    background-position: -26px 0;
+                }
+                .footer .sub-footer .soc .item .instagram {
+                    background-position: -60px 0;
+                }
