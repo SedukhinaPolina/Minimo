@@ -179,19 +179,19 @@ text-decoration: none;
 
 
 .footer__follow-item .fb {
-	background: url(images/facebook.png) no-repeat;
+	background: url(../images/facebook.png) no-repeat;
 	height: 14px;
 	width: 8px;
 }
 
 .footer__follow-item .twitter {
-	background: url(images/twitter.png) no-repeat;
+	background: url(../images/twitter.png) no-repeat;
 	height: 13px;
 	width: 18px;
 }
 
 .footer__follow-item .inst {
-	background: url(images/instagram.png) no-repeat;
+	background: url(../images/inst.png) no-repeat;
 	height: 15px;
 	width: 15px;
 }
