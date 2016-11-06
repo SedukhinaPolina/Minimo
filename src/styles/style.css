@@ -1,210 +1,198 @@
 .body {
-font-family: 'Playfair Display', serif;
-font-size: 14px;
-color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	line-height: 24px;
 
 }
 .page { 
 margin: 0 auto;
-    margin-top: 70px;
-width: 1200px;
-    
-    height: 3278px;}
-.g-dtable {
-display: table;
+padding: 70px;
+width: 1063px;
 }
-.g-dtable .g-dcell-middle {
-display: table-cell;
-vertical-align: middle;
+
+
+.nav__menu-ul {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0;
+	text-align: right;
+	
 }
+
+.nav__menu-ul__item {
+	display: inline-block;
+	margin: 0 106px 0 0;
+}
+
+
+.nav__menu-ul__item:last-child {
+	margin: 0;
+}
+
 .link {
 color: #626262;
 text-decoration: none;
 }
 
-.title {
-font-size: 30px;  
-margin: auto;
-font-weight: normal;
-}
-.header {
-height: 23px;
-width: 1063px;
-margin-left: 69px;
-}
-.header .logo {
-background: url(images/minim%C3%B8.png) no-repeat;
-width: 119px;
-height: 23px;
-}
-.header .menu {
-list-style: none;
-text-transform: uppercase;
-padding: 0;
-text-align: right;
-}
-.header .menu .item {
-display: inline-block;
-margin: 0 106px 0 0;
+.link:hover {
+	text-decoration: underline;
 }
 
-.header .menu .item:last-child {
-margin: 0;
+.logo {
+	background: url(../images/minim%C3%B8.png);
+	width: 119px;
+	height: 23px;
+	float:left;
 }
 
-.coverpicture {
-    background: url(images/bigimage.png) no-repeat;
-    height: 509px;
-    width: 1061px;
-    margin: 70px;    
+.img {
+	margin-top: 57px;
 }
 
-.sidebar {
-    height: 965px;
+.content {
+	padding: 80px 0;
+}
+
+.content__blog {
+	width: 659px;
+	margin: 0 0 20px 0;
+}
+
+.content__sidebar {
+	float: right;
     width: 279px;
-    float: right;
-    margin-right: 70px;
-    
-}
-.sidebar .picture {
-    background: url(images/image.png) no-repeat;
-    width: 272px;
-    height: 177px; 
 }
 
-.sidebar .icons {
-    background: url(images/icons.png) no-repeat;
-    height: 17px;
-     width: 76px;
-     position: relative;
-    display: block;
-    overflow: hidden;
-    text-indent: 99999px;
+.content__sidebar-aboutme {
+	color: #626262;
+	font: 400 12px / 20px PlayfairDisplay;
 }
 
-.sidebar .icons .facebook {
-    background-position: 5px 0;
+.content__sidebar-topposts {
+	margin:  20px 0 0 0;
 }
 
-.sidebar .topposts{
-    width: 201px;
-    height: 227px;
-    color: #b4ad9e;
-    font: 300 14px Ubuntu;
-    margin-top: 40px;
+.content__sidebar-topposts__post {
+	color: #626262;
+	font: 400 16px PlayfairDisplay;
+	margin: 10px 0 0 0;
 }
 
-.sidebar .topposts .menu {
-    margin-top: 10px;
+.content__share {
+	text-align: center;
 }
 
-.sidebar .topposts .menu .item {
-    color: #626262;
-    font: 400 16px PlayfairDisplay;
-    margin-top: 10px;
-}
-
-.sidebar .banner {
-    background: url(images/banner.png);
-    height: 250px;
-    width: 250px;
-    margin-top: 40px;
-}
-
-.content{
-    width: 659px;
-    margin-left: 70px;
-    line-height: 24px;
-}
-.content .photodiary {
-    color: #b4ad9e;
-    font: 300 14px Ubuntu;
-}
-
-.content .photo1 {
-    background: url(images/photo-1.png);
-    width: 661px;
-    height: 496px;
-    margin-top: 70px;
-}
-
-.content .photo2 {
-    background: url(images/photo2.png);
-    width: 660px;
-    height: 495px;
-    margin-top: 70px;
-}
-
-.content .photo3 {
-    background: url(images/photo3.png);
-    width: 661px;
-    height: 496px;
-    margin-top: 70px;
-    
-}
-
-.content .quote{
-    margin-top: 50px;
-    margin-left: 20px;
-    width: 652px;
-    height: 120px;
-}
 
 .share {
-    background: url(images/share.png);
-    width: 197px;
-    height: 17px;
-    margin-left: 610px;
-    margin-top: 100px;
 }
-.footer {
-    background-color: #d9d9d9;
-}  
-    .sub-footer {
-        width: 1200px;
-        height: 97px;
-        text-align:center;
-    }
-        .footer .sub-footer .menu {
-            list-style: none;
-            padding: 0;
-        }
-        .footer .sub-footer .menu .item {
-                display: inline-block;
-                margin: 0 17px 0 0;
-            }
-            .footer .sub-footer .menu .item:last-child {
-                margin: 0;
-            }
-        .footer .sub-footer .soc {
-            list-style: none;
-            padding: 0;
-            text-align: right;
-        }
-            .footer .sub-footer .soc .item {
-                display: inline-block;
-                margin: 0 0 0 10px;
-            }
-            .footer .sub-footer .soc .item:first-child {
-                margin: 0 10px 0 0;
-            }
-                .footer .sub-footer .soc .item .icon {
-                    position: relative;
-                    top: 4px;
-                    width: 16px;
-                    background: url(images/social.png) no-repeat;
-                    height: 16px;
-                    display: block;
-                    overflow: hidden;
-                    text-indent: 99999px;
-                }
-                .footer .sub-footer .soc .item .facebook {
-                    background-position: 5px 0;
-                }
 
-                .footer .sub-footer .soc .item .twitter {
-                    background-position: -26px 0;
-                }
-                .footer .sub-footer .soc .item .instagram {
-                    background-position: -60px 0;
-                }
+.share-item {
+	list-style: none;
+	height: 17px;
+    margin: 0 20px 0 0;
+	display: inline-block;
+	padding: 0;
+    
+}
+
+.share-item .fb {
+	height: 17px;
+	width: 9px;
+	background: url(../images/fb.png) no-repeat;
+}
+
+.share-item .inst {
+	height: 17px;
+	width: 18px;
+	background: url(../images/instagram.png) no-repeat;
+}
+
+.share-item .pin {
+	height: 17px;
+	width: 18px;
+	background: url(../images/pinterest.png) no-repeat;
+}
+
+.share-item .twitter {
+	height: 17px;
+	width: 18px;
+	background: url(../images/tw.png) no-repeat;
+	
+}
+.share-item .google {
+	height: 17px;
+	width: 18px;
+	background: url(../images/g+.png) no-repeat;
+}
+
+.share-item .tumblr {
+	height: 17px;
+	width: 11px;
+	background: url(../images/tumblr.png) no-repeat;
+}
+
+.text-ubuntu {
+	color: #b4ad9e;
+	font: 300 14px Ubuntu;
+	display: inline-block;
+}
+
+.quote {
+	font-style: italic;
+	margin: 54px 20px 33px;
+}
+
+.footer {
+	background-color: #d9d9d9;
+	width: 99.9%;
+	height: 97px;
+	color: #000000;
+	font: 400 14px / 24px PlayfairDisplay;
+	
+}
+
+.footer__nav {
+	margin: 24px;
+	display: inline-block;
+	
+}
+
+.footer__nav-item {
+	
+	display: inline-block;
+	list-style: none;
+	margin: 0 17px 0 0;
+}
+
+.footer__follow {
+	padding:37px 0;
+	float: right;
+	display: block;
+}
+
+.footer__follow-item {
+	display: inline-block;
+	list-style: none;
+	margin: 0 24px 0 0;
+}
+
+
+.footer__follow-item .fb {
+	background: url(images/facebook.png) no-repeat;
+	height: 14px;
+	width: 8px;
+}
+
+.footer__follow-item .twitter {
+	background: url(images/twitter.png) no-repeat;
+	height: 13px;
+	width: 18px;
+}
+
+.footer__follow-item .inst {
+	background: url(images/instagram.png) no-repeat;
+	height: 15px;
+	width: 15px;
+}
+
